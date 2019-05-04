@@ -3,7 +3,7 @@
     nav li 
     {
         float: left;
-        width: 25%;
+        width: auto;
     }
     main figure {
         float: right;
