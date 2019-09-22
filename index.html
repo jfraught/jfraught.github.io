@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-<meta charset="UTF-8">
-<link href="css/styles.css" rel="stylesheet">
-<title>Jordan Fraughton: Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CIT230 Assignment Portal | Jordan Fraughton | BYUi Online</title>
+  <meta name="description" content="Jordan Fraughton's Student Assignment Portal">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/date.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
+    <img src="images/meAndWife.jpg" alt="Fraughtdawg and Julio">
     <h1>Jordan Fraughton</h1>
-    <h2>Assignment Portal</h2>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="https://validator.w3.org">HTML Validator</a></li>
-      <li><a href="https://jigsaw.w3.org/css-validator">CSS Validator</a></li>
-      <li><a href="https://www.mydevice.io">My Device</a></li>
-    </ul>
-  </nav>
 
-  <main>
-    <h1>Home</h1>
-    <img src="images/meAndWife.jpg" alt="Family"> 
-    <ol>
-      <li>Lesson One</li>
-      <li><a href="#">Lesson Two</a></li>
-      <li><a href="#">Lesson Three/a></li>
-      <li><a href="#">Lesson Three</a></li>
-    </ol>
-  </main>
+  <section>
+    <h2>CIT230: Assignment Portal</h2>
+    <hr>
+    <nav>
+      <ul>
+        <li>Lesson 02: <a href="#">Assignment Link</a></li>
+        <li>Lesson 03: <a href="#">Assignment Link</a></li>
+        <li>Lesson 04: <a href="#">Assignment Link</a></li>
+      </ul>
+    </nav>
+  </section>
+
   <footer>
-    &copy; Jordan Fraughton 2019
+    &copy; 2019 | Jordan Fraughton | Lehi, Utah | <a href="http://www.byui.edu/online">BYUi Online Learning</a>
+    <p>Current Date
+      Derived: <span id="currentdate"></span>
+      <br>
+      Using toLocaleDateString:<span id="currentdate2"></span></p>
+    <script src="js/currentdate.js"></script>
   </footer>
 </body>
+
 </html>
