@@ -42,3 +42,8 @@ a:visited {
 a:hover {
     color: blue;
 }
+
+.date {
+    color: white;
+    text-align: center;
+}
